@@ -1,0 +1,21 @@
+public class Palandrome {
+  public static void main(String[] args) {
+	  int a= 525;
+	  int rem,result=0;
+	  int b=a;
+	  
+	  while(a>0) {
+		  rem = a%10;
+		  result= (result*10)+rem;
+		  a=a/10;
+		  b=a;
+		}
+	  if(b==a) {
+		  System.out.println("The Number is palandrome");
+	  }
+	  else {
+		  System.out.println("The Number is not a palandrome");
+	  }
+	  
+  }
+}
