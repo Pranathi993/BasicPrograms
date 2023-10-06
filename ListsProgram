@@ -1,0 +1,16 @@
+package com.pranati;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class ListsProgram {
+	 public static void main(String[] args) {
+			
+		List  value = new ArrayList();
+		   value.add(54);
+		   value.add(54.65665f);
+		   value.add('A');
+		   value.add("Pranathi");
+		System.out.println(value);
+}
+}
